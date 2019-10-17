@@ -20,7 +20,7 @@ PDF and HTML export only covers part of the contents in the space, the details c
 ## Install 
 
 ```
-npm i confluence-space-exporter
+npm i -g confluence-space-exporter
 ```
 
 ## Configuration

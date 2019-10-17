@@ -1,0 +1,37 @@
+{
+  "name": "confluence-space-exporter",
+  "version": "1.0.0",
+  "description": "A command line for exporting Confluence space",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc1518/Confluence-Space-Exporter.git"
+  },
+  "keywords": [
+    "confluence",
+    "space",
+    "export"
+  ],
+  "author": "Jackie Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jc1518/Confluence-Space-Exporter/issues"
+  },
+  "homepage": "https://github.com/jc1518/Confluence-Space-Exporter#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "yargs": "^14.2.0"
+  }
+}

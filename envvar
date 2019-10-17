@@ -1,0 +1,5 @@
+export PROTOCOL="https"
+export HOST="confluence.jackiechen.org"
+export PORT="443"
+export USERNAME="jackie.chen"
+export PASSWORD="************"

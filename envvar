@@ -1,3 +1,4 @@
+# Environment variables sample
 export PROTOCOL="https"
 export HOST="confluence.jackiechen.org"
 export PORT="443"

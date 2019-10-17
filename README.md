@@ -2,7 +2,7 @@
 
 ## Overview
 
-Confluence Space Exporter is a handy command line tool that can export a Confluence space into XML or HTML or PDF file. A good use case is archving space to a offsite storage. 
+Confluence Space Exporter is a handy command line tool that can export a Confluence space into XML or HTML or PDF file. A good use case is archiving space to an offsite storage. 
 
 XML export includes almost everything in the existing space. To restore the space, you need to import the export file into a compatible Confluence server. This is the recommended export type.
 

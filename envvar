@@ -1,6 +1,6 @@
 # Environment variables sample
-export PROTOCOL="https"
-export HOST="confluence.jackiechen.org"
-export PORT="443"
-export USERNAME="jackie.chen"
-export PASSWORD="************"
+export PROTOCOL="http"
+export HOST="localhost"
+export PORT="8090"
+export USERNAME="admin"
+export PASSWORD="admin"

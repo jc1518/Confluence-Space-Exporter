@@ -48,7 +48,7 @@ Examples:
   confluence-space-exporter -k CAP -t xml  Export Confluence space CAP to XML file
 ```
 
-## Sample
+## Example
 
 ```
 $ confluence-space-exporter -k SAN -t xml
@@ -80,4 +80,8 @@ SAN space export file size: 0.38 MB
 SAN space download finished! localhost-SAN-sandbox.xml.zip
 SAN space download ending time: 2019-10-18 04:20:36
 ```
+
+## Sample
+
+[Sandbox space pdf export](./lib/sandbox.pdf)
 

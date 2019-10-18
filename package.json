@@ -1,6 +1,6 @@
 {
   "name": "confluence-space-exporter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A command line for exporting Confluence space",
   "main": "cse.js",
   "directories": {

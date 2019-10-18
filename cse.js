@@ -14,4 +14,4 @@ const argv = require('yargs')
   .demandOption(['k', 't'])
   .argv
 
-exporter(argv.key.toUpperCase(), argv.type)
+exporter(argv.key, argv.type)

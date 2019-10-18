@@ -24,6 +24,10 @@ npm i -g confluence-space-exporter
 ```
 
 ## Configuration
+Enable Remote API (XML-RPC & SOAP) in Confluence server if you have not done it yet.
+
+![remote_api](./lib/remote_api.png)
+
 Setup the Confluence login information environment variables, please refer the [sample](./envvar).
 ```
 source envvar
@@ -47,15 +51,33 @@ Examples:
 ## Sample
 
 ```
-$ confluence-space-exporter -k CAP -t xml
-Generating export file for space CAP ...
-CAP space archiving file download link: https://confluence.jackiechen.org/download/temp/Confluence-space-export-221847-204.xml.zip
-CAP space download starting time: 2019-10-17 10:18:47 
+$ confluence-space-exporter -k SAN -t xml
+Generating export file for space SAN ...
+SAN space archiving file download link: http://localhost:8090/download/temp/Confluence-space-export-052036-20.xml.zip
+SAN space download starting time: 2019-10-18 04:20:36 
 Downloading...
 status code is: 200
-CAP space export file size: 0.01 MB
-100.00 % has been downloaded for CAP
-CAP space download finished! confluence.jackiechen.org-CAP-Confluence_Automation_Poc.xml.zip
-CAP space download ending time: 2019-10-17 10:18:48
+SAN space export file size: 0.38 MB
+3.98 % has been downloaded for SAN
+20.31 % has been downloaded for SAN
+36.65 % has been downloaded for SAN
+46.86 % has been downloaded for SAN
+61.15 % has been downloaded for SAN
+63.20 % has been downloaded for SAN
+69.32 % has been downloaded for SAN
+71.36 % has been downloaded for SAN
+75.45 % has been downloaded for SAN
+77.49 % has been downloaded for SAN
+79.53 % has been downloaded for SAN
+83.62 % has been downloaded for SAN
+87.70 % has been downloaded for SAN
+89.74 % has been downloaded for SAN
+93.83 % has been downloaded for SAN
+95.87 % has been downloaded for SAN
+97.91 % has been downloaded for SAN
+99.95 % has been downloaded for SAN
+100.00 % has been downloaded for SAN
+SAN space download finished! localhost-SAN-sandbox.xml.zip
+SAN space download ending time: 2019-10-18 04:20:36
 ```
 
